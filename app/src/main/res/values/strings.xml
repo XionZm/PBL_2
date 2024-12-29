@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Shoes Hunter</string>
+
+    <string name="webclientid">135372318241-eq6mserql0st76mttu0v4nvo98jkc292.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_map_key_api">AIzaSyA6MKjfn4uAnF_b_2KBxJYJYcpynIG6Ufw</string>
+    <string name="product_description">
+        The Onitsuka Tiger Mexico 66 surfaces in a striking Yellow/Black combo, channeling major vintage vibes while syncing perfectly with modern trends.
+    </string>
+
+    <string-array name="size">
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+    </string-array>
+</resources>

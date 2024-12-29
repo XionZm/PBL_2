@@ -1,0 +1,418 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:background="@color/background_fragment"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+
+            <!--Baris 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <!--Etalase 1-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe1"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe1"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe1" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Onitsuka Tiger Mexico 66 Yellow/Black"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:layout_below="@id/imageViewShoe1"/>
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="Rp 2,200K"
+                        android:layout_below="@id/textViewTitleShoe1"/>
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:layout_alignEnd="@id/imageViewShoe1"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <!--Etalase 2-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe2"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe2"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe2" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageViewShoe2"
+                        android:text="Salomon XT-6 Gore-Tex Black/Silvers"
+                        android:paddingTop="5dp"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleShoe2"
+                        android:text="Rp 2,900K"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/imageViewShoe2"
+                        android:background="@android:color/transparent"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Baris 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <!--Etalase 3-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe3"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe3"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe3" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageViewShoe3"
+                        android:paddingTop="5dp"
+                        android:text="Adidas Samba OG Cloud White/Night "
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleShoe3"
+                        android:text="Rp 1,200K"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/imageViewShoe3"
+                        android:background="@android:color/transparent"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <!--Etalase 4-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe4"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe4"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe4" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageViewShoe4"
+                        android:paddingTop="5dp"
+                        android:text="ASICS GEL-KAYANO 14 Simply Taupe/Oatmeal"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleShoe4"
+                        android:text="Rp 2,600K"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/imageViewShoe4"
+                        android:background="@android:color/transparent"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Baris 3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <!--Etalase 5-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe5"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe5"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe5" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jordan x Travis Scott Air Jordan 1 Low Golf"
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:layout_below="@id/imageViewShoe5"/>
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="Rp 19,300K"
+                        android:layout_below="@id/textViewTitleShoe5"/>
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:layout_alignEnd="@id/imageViewShoe5"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <!--Etalase 5-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe6"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe6"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe6" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageViewShoe6"
+                        android:text="Converse Chuck 70 Hi FW24"
+                        android:paddingTop="5dp"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleShoe6"
+                        android:text="Rp 1,000K"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/imageViewShoe6"
+                        android:background="@android:color/transparent"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--Baris 4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp">
+
+                <!--Etalase 7-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe7"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe7"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe7" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vans Knu Skool padded "
+                        android:textSize="15sp"
+                        android:paddingTop="5dp"
+                        android:layout_below="@id/imageViewShoe7"/>
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="Rp 1,200K"
+                        android:layout_below="@id/textViewTitleShoe7"/>
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:layout_alignEnd="@id/imageViewShoe7"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <!--Etalase 8-->
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutShoe8"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewShoe8"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:background="@drawable/rounded_image"
+                        app:srcCompat="@drawable/shoe8" />
+
+                    <TextView
+                        android:id="@+id/textViewTitleShoe8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageViewShoe8"
+                        android:text="New Balance 9060 Sea Salt"
+                        android:paddingTop="5dp"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textViewPriceShoe8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textViewTitleShoe8"
+                        android:text="Rp 2,200K"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonFav8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@id/imageViewShoe8"
+                        android:background="@android:color/transparent"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_favorite" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Icon Logout -->
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:tint="@color/icon"
+        android:src="@drawable/baseline_logout_24" />
+
+    <!-- Text Logout -->
+    <TextView
+        android:id="@+id/Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/logout"
+        android:layout_marginStart="12dp"
+        android:layout_centerVertical="true"
+        android:text="Logout"
+        android:textColor="@color/icon"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+</RelativeLayout>
